@@ -2,7 +2,8 @@
 
 This model is a fine-tuned version of [openai/whisper-large-v2](https://huggingface.co/openai/whisper-large-v2) on the [atcosim_corpus](https://huggingface.co/datasets/Jzuluaga/atcosim_corpus) dataset.
 
-### Training hyperparameters
+
+## Training hyperparameters
 
 The following hyperparameters were used during training:
 - learning_rate: 1e-05
@@ -14,12 +15,14 @@ The following hyperparameters were used during training:
 - lr_scheduler_type: linear
 - lr_scheduler_warmup_steps: 250
 - num_epochs: 11
+
   
-### Evaluation results
+## Evaluation results
 
 See README.md under the `Evaluation` folder.
 
-### Framework versions
+
+## Framework versions
 
 - Transformers 4.42.3
 - Pytorch 2.3.1+cu118
