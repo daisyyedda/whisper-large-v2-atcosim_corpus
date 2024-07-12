@@ -1,8 +1,8 @@
 # Evaluate
 This folder contains two Jupyter notebooks for evaluating models on the `Jzuluaga/atcosim_corpus` dataset. The notebooks are:
 
-1. `eval_blank.ipynb`: This notebook is intended for evaluating the performance of a Whisper base model on the dataset.
-2. `eval_finetuned.ipynb`: This notebook is intended for evaluating the performance of our fine-tuned model on dataset.
+1. `eval_blank_large.ipynb`: This notebook is intended for evaluating the performance of a Whisper base model on the dataset.
+2. `eval_finetuned_large.ipynb`: This notebook is intended for evaluating the performance of our fine-tuned model on dataset.
 
 ## Word Error Rate (WER)
 **Word Error Rate (WER)** is a common metric used to evaluate the performance of speech recognition systems. It measures the difference between the reference (correct) transcription and the hypothesis (system output) transcription. WER is calculated using the following formula:
@@ -32,6 +32,6 @@ To be added.
 ## Usage
 To run these notebooks:
 
-1. `gh repo clone WatVis/ATC_NLP`
+1. `gh repo clone daisyyedda/whisper-large-v2-atcosim_corpus`
 2. `cd Evaluate`
 3. Execute the cells in sequence to run the evaluations.
