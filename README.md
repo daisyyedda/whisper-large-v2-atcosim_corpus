@@ -19,7 +19,8 @@ The following hyperparameters were used during training:
   
 ## Evaluation results
 
-See README.md under the `Evaluation` folder.
+- Loss: 0.1606
+- Wer: 4.6858
 
 
 ## Framework versions
